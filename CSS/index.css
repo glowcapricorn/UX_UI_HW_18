@@ -1,0 +1,96 @@
+/* Navbar CSS code */
+
+header {
+    display: flex;
+    background-color: rgb(156, 156, 156);
+}
+
+
+.header-logo {
+    background-color: antiquewhite;
+    display: inline-block;
+    flex-grow: 2;
+}
+
+#logo {
+    width: 200px;
+    height: 100px;
+}
+
+.header-nav {
+    background-color: aquamarine;
+    display: inline-block;
+    flex-grow: 8;
+    margin: auto;
+}
+
+.navigation {
+
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 30px;
+    list-style-type: none;
+}
+.navigation li {
+   background-color: blanchedalmond;
+   padding: 10px;
+}
+
+.navigation li:hover {
+    background-color: rgb(202, 139, 206);
+    
+}
+
+.navigation li:hover a {
+   color: green;
+}
+
+.navigation li:active {
+    background-color: rgb(33, 106, 138);
+}
+
+.navigation li:active a {
+    color: purple;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: grey;
+}
+
+/* Hero image CSS code */
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    background-color: azure;
+}
+
+.heroImg .heroContent img {
+    height: 300px;
+}
+
+.heroImg .heroContent {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* Footer CSS code */
+footer {
+    background-color: #373738;
+    padding: 10px 20px;
+}
+
+.navigation-footer {
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+}
+
+.navigation-footer li {
+    padding: 10px;
+}
+
+.navigation-footer li a {
+    text-decoration: none;
+    color: white;
+}
