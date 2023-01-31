@@ -73,6 +73,31 @@ header {
     width: 500px;
     margin: 0 auto;
 }
+/* UX Skills */
+.mySkills h1 {
+    text-align: center;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+.flexContainer div {
+    width: 33%;
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* My Work */
+.workGrid {
+    display: grid;
+}
+
+.workGrid div {
+    background-color: bisque;
+    margin: 5px;
+}
+
 
 /* Footer CSS code */
 footer {
